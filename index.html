@@ -1,37 +1,206 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-AU">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KineticClassroom</title>
-<meta name="description" content="An iPad app that helps teachers see, at a glance, whether a student using an under-desk bike is settled.">
-<link rel="stylesheet" href="/style.css">
+<title>KineticClassroom — under-desk bikes, at a glance</title>
+<meta name="description" content="KineticClassroom connects under-desk bikes to an iPad dashboard, so teachers can see at a glance whether students who need to move are settled and focused.">
+<meta property="og:title" content="KineticClassroom — under-desk bikes, at a glance">
+<meta property="og:description" content="KineticClassroom connects under-desk bikes to an iPad dashboard, so teachers can see at a glance whether students who need to move are settled and focused.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F7F6F2}
+a{color:#0E5D66}a:hover{color:#0A464D}
+a:focus-visible{outline:3px solid #0E5D66;outline-offset:3px}
+@media (max-width:640px){
+ h1{font-size:38px !important}
+ h2[style*="font-size: 40px"]{font-size:30px !important}
+ section{padding-top:56px !important;padding-bottom:56px !important}
+ header nav{gap:14px !important}
+}
+</style>
 </head>
 <body>
-<header><div class="wrap">
-  <a class="brand" href="/">KineticClassroom</a>
-  <nav><a href="/support.html">Support</a><a href="/privacy.html">Privacy</a></nav>
-</div></header>
+<div style="font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; color: #14282C; background: #F7F6F2; font-size: 17px; line-height: 1.55">
 
-<main><div class="wrap">
-  <h1>KineticClassroom</h1>
-  <p class="lede">An iPad app for teachers. It shows, at a glance, whether a student using an under-desk bike is settled, warming up, or over-activated.</p>
+<header style="border-bottom: 1px solid #DAD9D2; background: #F7F6F2">
+<div style="max-width: 1120px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="index.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #14282C">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="#0E5D66" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="15" cy="15" r="11"></circle><path d="M15 15 L15 8"></path><path d="M15 15 L21 19"></path></svg>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 20px">KineticClassroom</span>
+</a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; align-items: center; gap: 22px; font-size: 15px">
+<a href="#how" style="color: #14282C; text-decoration: none">How it works</a>
+<a href="leaders.html" style="color: #14282C; text-decoration: none">For school leaders</a>
+<a href="#evidence" style="color: #14282C; text-decoration: none">Evidence</a>
+<a href="support.html" style="color: #14282C; text-decoration: none">Support</a>
+<a href="privacy.html" style="color: #14282C; text-decoration: none">Privacy</a>
+<a href="mailto:dave@flowstatelearning.com.au?subject=KineticClassroom%20trial" style="background: #0E5D66; color: #FFFFFF; text-decoration: none; padding: 11px 18px; border-radius: 8px; font-weight: 700">Talk about a trial</a>
+</nav>
+</div>
+</header>
 
-  <p>Some students focus better when they can move. An under-desk pedal exerciser gives them a quiet way to do that without leaving their seat. A small Bluetooth sensor on the pedals sends pedalling speed to the teacher's iPad, and KineticClassroom turns that into a simple regulation status the teacher can read from across the room.</p>
+<section style="max-width: 1120px; margin: 0 auto; padding: 72px 24px 64px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 56px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 22px">
+<p style="margin: 0; font-size: 14px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #0E5D66">For teachers of students who need to move</p>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 54px; line-height: 1.05; letter-spacing: -0.01em">See, from across the room, which students are settled.</h1>
+<p style="margin: 0; font-size: 19px; color: #3D4F52; max-width: 520px">An under-desk bike gives a student a quiet way to move without leaving their seat. A small sensor on the pedal sends pedalling speed to your iPad, and KineticClassroom turns it into a simple regulation status you can read at a glance.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="mailto:dave@flowstatelearning.com.au?subject=KineticClassroom%20trial" style="background: #0E5D66; color: #FFFFFF; text-decoration: none; padding: 14px 22px; border-radius: 8px; font-weight: 700">Talk about a trial</a>
+<a href="leaders.html" style="border: 2px solid #0E5D66; color: #0E5D66; text-decoration: none; padding: 12px 20px; border-radius: 8px; font-weight: 700">For school leaders</a>
+</div>
+<p style="margin: 0; font-size: 14px; color: #4A5B5E">Free iPad app, coming soon to the App Store. Not a fitness app. Not a medical device.</p>
+</div>
 
-  <p>It is a classroom support tool built by a practising primary school teacher. It is not a fitness app and it is not a medical device.</p>
+<div style="background: #14282C; border-radius: 28px; padding: 18px; box-shadow: 0 24px 60px rgba(20,40,44,0.18)">
+<div style="background: #FFFFFF; border-radius: 14px; padding: 22px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 18px">Room 6B · Independent writing</span>
+<span style="font-size: 13px; color: #4A5B5E">2 bikes</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+<div style="border: 1px solid #DAD9D2; border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 6px; background: #EAF4EE">
+<span style="font-weight: 700; font-size: 22px">AJ</span>
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px"><span style="width: 12px; height: 12px; border-radius: 6px; background: #2E8B57"></span>Calm &amp; focused</span>
+</div>
+<div style="border: 1px solid #DAD9D2; border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 6px; background: #FBF2DC">
+<span style="font-weight: 700; font-size: 22px">MK</span>
+<span style="display: flex; align-items: center; gap: 8px; font-size: 15px"><span style="width: 12px; height: 12px; border-radius: 6px; background: #D49A1C"></span>Warming up</span>
+</div>
+</div>
+<p style="margin: 0; font-size: 13px; color: #4A5B5E">Illustration of the teacher dashboard: two bikes on one iPad.</p>
+</div>
+</div>
+</section>
 
-  <h2>What a school needs</h2>
-  <ul>
-    <li>An iPad</li>
-    <li>An under-desk pedal exerciser</li>
-    <li>A standard Bluetooth cadence sensor, such as a Garmin Cadence Sensor 2</li>
-  </ul>
+<section style="background: #14282C; color: #F7F6F2">
+<div style="max-width: 1120px; margin: 0 auto; padding: 28px 24px; display: flex; flex-wrap: wrap; gap: 32px; justify-content: space-between; align-items: center">
+<p style="margin: 0; font-size: 18px"><strong>Trialled in Brisbane classrooms</strong> — 5 students across 3 classrooms, Term 3 2026.</p>
+<p style="margin: 0; font-size: 18px"><strong>Built by a practising teacher</strong> — 26 years in classrooms, still teaching.</p>
+</div>
+</section>
 
-  <h2>Contact</h2>
-  <p>For trials, questions or support: <a href="mailto:dave@flowstatelearning.com.au">dave@flowstatelearning.com.au</a></p>
-</div></main>
+<section id="how" style="max-width: 1120px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 640px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 40px; line-height: 1.1">How it works</h2>
+<p style="margin: 0; color: #3D4F52">Three pieces, no logins, no IT setup. One iPad runs up to two bikes.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px">
+<div style="background: #FFFFFF; border: 1px solid #DAD9D2; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 40px; font-weight: 700; color: #0E5D66">1</span>
+<h3 style="margin: 0; font-size: 20px">A sensor on the pedal</h3>
+<p style="margin: 0; color: #3D4F52">A standard Bluetooth cadence sensor clips onto any under-desk pedal exerciser and measures how fast the student is pedalling.</p>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #DAD9D2; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 40px; font-weight: 700; color: #0E5D66">2</span>
+<h3 style="margin: 0; font-size: 20px">Your iPad listens</h3>
+<p style="margin: 0; color: #3D4F52">Pair each sensor to a student's initials once. The app reads both bikes at the same time.</p>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #DAD9D2; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 40px; font-weight: 700; color: #0E5D66">3</span>
+<h3 style="margin: 0; font-size: 20px">You see a status, not a number</h3>
+<p style="margin: 0; color: #3D4F52">Pedalling speed becomes a regulation zone. You notice who needs a check-in without stopping the lesson.</p>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px">
+<div style="display: flex; gap: 12px; align-items: flex-start; padding: 18px; border-radius: 12px; background: #EAF4EE"><span style="flex-shrink: 0; width: 16px; height: 16px; margin-top: 4px; border-radius: 8px; background: #2E8B57"></span><div><strong>Calm &amp; focused</strong><br><span style="color: #3D4F52; font-size: 15px">Steady, light pedalling.</span></div></div>
+<div style="display: flex; gap: 12px; align-items: flex-start; padding: 18px; border-radius: 12px; background: #FBF2DC"><span style="flex-shrink: 0; width: 16px; height: 16px; margin-top: 4px; border-radius: 8px; background: #D49A1C"></span><div><strong>Warming up</strong><br><span style="color: #3D4F52; font-size: 15px">Speeding up or settling in.</span></div></div>
+<div style="display: flex; gap: 12px; align-items: flex-start; padding: 18px; border-radius: 12px; background: #F8E3DF"><span style="flex-shrink: 0; width: 16px; height: 16px; margin-top: 4px; border-radius: 8px; background: #C0392B"></span><div><strong>Over-activated</strong><br><span style="color: #3D4F52; font-size: 15px">Fast pedalling — worth a look.</span></div></div>
+<div style="display: flex; gap: 12px; align-items: flex-start; padding: 18px; border-radius: 12px; background: #F1F2F2"><span style="flex-shrink: 0; width: 16px; height: 16px; margin-top: 4px; border-radius: 8px; background: #9AA3A6"></span><div><strong>Not connected</strong><br><span style="color: #3D4F52; font-size: 15px">Sensor off or out of range.</span></div></div>
+</div>
+</section>
 
-<footer><div class="wrap">KineticClassroom is made by FlowState Learning, Brisbane, Australia.</div></footer>
+<section style="background: #FFFFFF; border-top: 1px solid #DAD9D2; border-bottom: 1px solid #DAD9D2">
+<div style="max-width: 1120px; margin: 0 auto; padding: 88px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 56px">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 40px; line-height: 1.1">Built for a few students, not the whole class</h2>
+<p style="margin: 0; color: #3D4F52">KineticClassroom works best as a targeted support for students who find it hard to settle — while everyone else works as normal. Each iPad runs up to two bikes at a time.</p>
+<p style="margin: 0; color: #3D4F52">Suited to upper primary and secondary, including learning support and small-group settings.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-weight: 700">You might think of a student who:</p>
+<div style="display: flex; gap: 12px; align-items: center; padding: 16px 18px; border: 1px solid #DAD9D2; border-radius: 12px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#0E5D66" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 10l4 4 8-8"></path></svg>needs redirecting many times a lesson</div>
+<div style="display: flex; gap: 12px; align-items: center; padding: 16px 18px; border: 1px solid #DAD9D2; border-radius: 12px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#0E5D66" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 10l4 4 8-8"></path></svg>leaves their seat often during independent work</div>
+<div style="display: flex; gap: 12px; align-items: center; padding: 16px 18px; border: 1px solid #DAD9D2; border-radius: 12px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#0E5D66" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 10l4 4 8-8"></path></svg>has ADHD or other regulation needs in their plan</div>
+<div style="display: flex; gap: 12px; align-items: center; padding: 16px 18px; border: 1px solid #DAD9D2; border-radius: 12px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#0E5D66" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 10l4 4 8-8"></path></svg>focuses better when they're allowed to move</div>
+</div>
+</div>
+</section>
+
+<section id="evidence" style="max-width: 1120px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 700px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 40px; line-height: 1.1">What the research says — and what it doesn't</h2>
+<p style="margin: 0; color: #3D4F52">We'd rather you trust us than be impressed by us. Here's the honest version.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px">
+<div style="background: #FFFFFF; border: 1px solid #DAD9D2; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-size: 20px">Movement helps many children with ADHD think</h3>
+<p style="margin: 0; color: #3D4F52">In a lab study of 24 children, those with ADHD were faster on an attention task while pedalling a desk cycle, with more activity in the brain's prefrontal cortex. Children without ADHD showed no change.</p>
+<p style="margin: 0; font-size: 14px; color: #4A5B5E">Hoy, Fenesi et al. (2024), Brain Sciences</p>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #DAD9D2; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-size: 20px">Keeping still can make focus harder</h3>
+<p style="margin: 0; color: #3D4F52">For children with ADHD, more movement during a thinking task went with better working memory. For other children it was the reverse — which is why this is a targeted tool.</p>
+<p style="margin: 0; font-size: 14px; color: #4A5B5E">Sarver et al. (2015), Journal of Abnormal Child Psychology</p>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #DAD9D2; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-size: 20px">Gentle beats hard</h3>
+<p style="margin: 0; color: #3D4F52">Light, steady movement supports attention. Hard effort competes with thinking. The zones are set around light, sustainable pedalling, informed by this research.</p>
+<p style="margin: 0; font-size: 14px; color: #4A5B5E">McMorris &amp; Hale (2012, 2015); Yu et al. (2021)</p>
+</div>
+</div>
+<div style="background: #E3EFEC; border-radius: 16px; padding: 28px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px">
+<div><strong>Not a test-score booster.</strong><br><span style="color: #3D4F52">Well-designed studies show desk bikes don't harm learning, but don't reliably raise results either.</span></div>
+<div><strong>Not for every student.</strong><br><span style="color: #3D4F52">The benefit is clearest for students who struggle to regulate.</span></div>
+<div><strong>Not a medical device.</strong><br><span style="color: #3D4F52">It's a classroom support tool. It doesn't diagnose or treat anything.</span></div>
+</div>
+</section>
+
+<section style="max-width: 1120px; margin: 0 auto; padding: 0 24px 88px">
+<figure style="margin: 0; background: #FFFFFF; border: 1px solid #DAD9D2; border-radius: 16px; padding: 40px; display: flex; flex-direction: column; gap: 16px">
+<blockquote style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 28px; line-height: 1.3">“It has significantly helped not only the student to stay calm and focused, but their peers as well. The teacher is able to help students learn better as disruptions are reduced.”</blockquote>
+<figcaption style="color: #4A5B5E">Year 5 teacher, Brisbane primary school · Term 3 trial</figcaption>
+</figure>
+</section>
+
+<section style="background: #FFFFFF; border-top: 1px solid #DAD9D2; border-bottom: 1px solid #DAD9D2">
+<div style="max-width: 1120px; margin: 0 auto; padding: 88px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 56px">
+<div style="display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 40px; line-height: 1.1">What you need</h2>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<div style="padding-bottom: 16px; border-bottom: 1px solid #DAD9D2"><strong>An iPad</strong><br><span style="color: #3D4F52">Running iPadOS 17.6 or later — that's the standard iPad from 2018 (6th generation) onwards.</span></div>
+<div style="padding-bottom: 16px; border-bottom: 1px solid #DAD9D2"><strong>A cadence sensor per bike</strong><br><span style="color: #3D4F52">Version 1 supports the Garmin Cadence Sensor 2.</span></div>
+<div><strong>An under-desk pedal exerciser</strong><br><span style="color: #3D4F52">Source one locally. Check the pedal height clears your desks and that the resistance is quiet.</span></div>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 20px; background: #F7F6F2; border-radius: 16px; padding: 32px">
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#0E5D66" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="14" width="18" height="13" rx="2"></rect><path d="M11 14v-4a5 5 0 0 1 10 0v4"></path></svg>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 30px; line-height: 1.15">Everything stays on the iPad</h2>
+<p style="margin: 0; color: #3D4F52">No accounts, no logins, no tracking. Teachers enter initials, not names. Nothing is sent to us or anyone else.</p>
+<a href="privacy.html" style="font-weight: 700">Read the privacy policy</a>
+</div>
+</div>
+</section>
+
+<section style="max-width: 1120px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; align-items: flex-start; gap: 20px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 40px; line-height: 1.1; max-width: 720px">Thinking about a student who needs to move?</h2>
+<p style="margin: 0; color: #3D4F52; max-width: 620px">We're working with a small number of founding schools. Let's talk about how KineticClassroom could support your students.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="mailto:dave@flowstatelearning.com.au?subject=KineticClassroom%20trial" style="background: #0E5D66; color: #FFFFFF; text-decoration: none; padding: 14px 22px; border-radius: 8px; font-weight: 700">Email Dave</a>
+<a href="leaders.html" style="border: 2px solid #0E5D66; color: #0E5D66; text-decoration: none; padding: 12px 20px; border-radius: 8px; font-weight: 700">Information for school leaders</a>
+</div>
+</section>
+
+<footer style="background: #14282C; color: #C9D3D4">
+<div style="max-width: 1120px; margin: 0 auto; padding: 40px 24px; display: flex; flex-wrap: wrap; gap: 24px; justify-content: space-between; font-size: 15px">
+<span>KineticClassroom is made by <a href="https://www.flowstatelearning.com.au" style="color: #FFFFFF">FlowState Learning</a>, Brisbane, Australia.</span>
+<span style="display: flex; gap: 20px"><a href="support.html" style="color: #FFFFFF">Support</a><a href="privacy.html" style="color: #FFFFFF">Privacy</a><a href="mailto:dave@flowstatelearning.com.au" style="color: #FFFFFF">Contact</a></span>
+</div>
+</footer>
+
+</div>
 </body>
 </html>
